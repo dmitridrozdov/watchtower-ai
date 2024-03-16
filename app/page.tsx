@@ -31,6 +31,34 @@ const HopePage = (props: Props) => {
           ></canvas>
         </div>
       </div>
+
+      {/* Righ division - container for buttion panel and wiki secion  */}
+      <div className='flex flex-row flex-1'>
+        <div className='border-primary/5 border-2 max-w-xs flex flex-col gap-2 justify-between shadow-md rounded-md p-4'>
+          {/* top secion  */}
+          <div className='flex flex-col gap-2'>
+
+          </div>
+
+          {/* Middle section  */}
+          <div className='flex flex-col gap-2'>
+           
+          </div>
+          {/* Bottom Secion  */}
+          <div className='flex flex-col gap-2'>
+           
+          </div>
+        </div>
+
+        {/* <div className='h-full flex-1 py-4 px-2 overflow-y-scroll'>
+          <RenderFeatureHighlightsSection />
+        </div>
+      </div>
+      {loading && <div className='z-50 absolute w-full h-full flex items-center justify-center bg-primary-foreground'>
+        Getting things ready . . . <Rings height={50} color='red' />
+      </div>} */}
+
+    </div>
     </div>
   )
 }
